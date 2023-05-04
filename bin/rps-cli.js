@@ -40,7 +40,7 @@ if (argv.r || argv.rules) {
 
 try {
     const result = RPS(choice);
-    console.log(JSON.stringify(result, null, 2));
+    console.log(JSON.stringify(result));
     process.exit(0);
 
 } catch (error) {
