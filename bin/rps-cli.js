@@ -58,6 +58,7 @@ try {
                                 e.g. {"player":"rock"}
                 node-rps rock   Return JSON with results for RPS played against a simulated opponent.
                                 e.g {"player":"rock","opponent":"scissors","result":"win"}
+                                
             Rules for Rock Paper Scissors:
     
               - Scissors CUTS Paper
