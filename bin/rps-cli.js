@@ -40,8 +40,9 @@ if (argv.r || argv.rules) {
 
 try {
     const result = rps(choice);
+    console.log('success');
     console.log(JSON.stringify(result));
-    
+
 } catch (error) {
     if (error instanceof RangeError) {
         console.log(
