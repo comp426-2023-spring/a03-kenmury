@@ -1,6 +1,7 @@
-#!/usr/bin/env node
-
 import {RPSLS} from "../lib/rpsls.js"
 import minimist from "minimist"
 
-RPSLS();
+const args = minimist(process.argv.slice(2));
+const choice = args._[0];
+
+console.log(choice)
