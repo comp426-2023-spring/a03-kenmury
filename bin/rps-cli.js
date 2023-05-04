@@ -39,9 +39,9 @@ if (argv.r || argv.rules) {
 }
 
 try {
-    const result = rps(choice);
-    console.log('success');
-    console.log(JSON.stringify(result));
+    const result = RPS(choice);
+    console.log(JSON.stringify(result, null, 2));
+    process.exit(0);
 
 } catch (error) {
     if (error instanceof RangeError) {
