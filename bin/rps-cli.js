@@ -3,8 +3,8 @@
 import {RPS} from "../lib/rpsls.js"
 import minimist from "minimist"
 
-const args = minimist(process.argv.slice(2));
-const choice = args._[0];
+const argv = minimist(process.argv.slice(2));
+const choice = argv._[0];
 
 if (argv.h || argv.help) {
     console.log(
